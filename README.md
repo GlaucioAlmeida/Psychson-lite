@@ -2,6 +2,10 @@ Phison 2251-03 (2303) Custom Firmware
 ========
 
 Releases have the following items:
+- `DUCKY` -- these are the scripts and files for generate the inject.bin.
+- `firmware` -- these are the codes of the firmware and compiled .bin file.
+- `fwburner` -- these are the .bin files of the pendrive burner image.
+- `restore` -- these are the binaries of all tools for restore the pendrive.
 - `tools` -- these are the compiled binaries of all the tools.
 
 Take note that the firmware patches have only been tested against PS2251-03 firmware version _1.03.53_ (which is for an 8K eD3 NAND flash chip). They may work for others, but be careful.
