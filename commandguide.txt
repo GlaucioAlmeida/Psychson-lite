@@ -1,5 +1,5 @@
 ============================================================================================================
------------------------------------------- PENDRIVES COMPATIVEIS -------------------------------------------
+------------------------------------------ PENDRIVES COMPATÍVEIS -------------------------------------------
 ============================================================================================================
 > Patriot 8GB Supersonic Xpress (with PS2251-03 (2303) controller)
 > Kingston DataTraveler 3.0 T111 8GB
@@ -13,7 +13,7 @@ INSTALAR sdcc-3.4.0-x64-setup.exe
 EDITAR COMANDOS EM: C:\Psychson\DUCKY\comandos.txt
 
 GERAR ARQUIVO inject.BIN >>>>
-	Versao GUI: C:\Psychson\DUCKY\duckyencodergui.jar
+	Versão GUI: C:\Psychson\DUCKY\duckyencodergui.jar
 	ou: cd C:\Psychson\DUCKY\ & java -jar duckencoder.jar -i comandos.txt -o inject.bin -l ptBR.properties
 
 INJETAR ARQUIVO .bin NO FIRMWARE >>>>
@@ -22,15 +22,15 @@ INJETAR ARQUIVO .bin NO FIRMWARE >>>>
 	
 	2 Passo - Efetuar inject no firmware .bin:
 		C:\Psychson\tools\EmbedPayload.exe C:\Psychson\DUCKY\inject.bin C:\Psychson\firmware\firmware.bin
-		A partir de agora firmware.bin nao e mais o original.
+		A partir de agora firmware.bin não é mais o original.
 
 =================================================================================================================
 -------------------------------------- GRAVANDO FIRMWARE NO PENDRIVE --------------------------------------------
 =================================================================================================================
-OBS: So funciona se o pendrive estiver com o firmware original!!! Caso contrario, pode nao funcionar e o pendrive deve ser restaurado...
-OBS: Se o programa MPALL_F1_0702_v363_00.exe nao funcionar deve ser restaurado com os comandos abaixo, porem deve descobrir a letra do drive.
+OBS: Só funciona se o pendrive estiver com o firmware original!!! Caso contrario, pode não funcionar e o pendrive deve ser restaurado...
+OBS: Se o programa MPALL_F1_0702_v363_00.exe não funcionar deve ser restaurado com os comandos abaixo, porém deve se saber a letra do drive.
 
-SETANDO O PENDRIVE EM BOOTMODE (**luz acesa, nao pisca)>>>>
+SETANDO O PENDRIVE EM BOOTMODE (**luz acesa, não pisca)>>>>
 	C:\Psychson\tools\DriveCom.exe /drive=F /action=SetBootMode
 
 SETANDO O PENDRIVE EM MODO SendExecutable COM O BURNER .bin (luz apaga)>>>>
@@ -40,7 +40,7 @@ GRAVANDO O FIRMWARE PAYLOAD NO PENDRIVE >>>>
 	C:\Psychson\tools\DriveCom.exe /drive=F /action=SendFirmware /burner=C:\Psychson\fwburner\BN03V104M.BIN /firmware=C:\Psychson\firmware\firmware.bin
 _________________________________________________________________________________________________________________
 SALVANDO O FIRMWARE ORIGINAL (opcional) >>>>
-	c:\fw\Psychson\tools\DriveCom.exe /drive=F /action=DumpFirmware /firmware=c:\fw\currentfw.bin
+	C:\Psychson\tools\DriveCom.exe /drive=F /action=DumpFirmware /firmware=c:\currentfirmware.bin
 
 =================================================================================================================
-em breve badusb para digispark
+em breve badusb para digispark :)
