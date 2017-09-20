@@ -2,7 +2,9 @@
 ## PENDRIVES COMPATÍVEIS
 
 > Patriot 8GB Supersonic Xpress (with PS2251-03 (2303) controller)
+
 > Kingston DataTraveler 3.0 T111 8GB
+
 > Verbatim STORE N GO V3 8GB USB 3.0 (May ship with 2307)
 
 ## PREPARANDO OS ARQUIVOS
