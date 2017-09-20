@@ -11,11 +11,11 @@
 
 - EDITAR COMANDOS EM: C:\Psychson\duckGO\comandos.txt
 
-- GERAR ARQUIVO inject.BIN >>>>
+- GERAR ARQUIVO inject.BIN
 	- Versão Gui: C:\Psychson\duckGO\duckencodergui.jar
 	- Versão Dos: cd C:\Psychson\duckGO\ & java -jar duckencoder.jar -i comandos.txt -o inject.bin -l ptBR.properties
 
-- INJETAR ARQUIVO .bin NO FIRMWARE >>>>
+- INJETAR ARQUIVO .bin NO FIRMWARE
 	
 	- 1 Passo - Gerar firmware.bin: 
 		- Executar "C:\Psychson\firmware\BUILD.bat" (*já está pronto > backupFirmwareOk.bin*)
@@ -28,7 +28,8 @@
 ## GRAVANDO FIRMWARE NO PENDRIVE
 
 OBS: Só funciona se o pendrive estiver com o firmware original!!! Caso contrario, pode não funcionar e o pendrive deve ser restaurado...
-OBS: Se o programa MPALL_F1_0702_v363_00.exe não funcionar deve ser restaurado com os comandos abaixo, porém deve se saber a letra do drive.
+
+ OBS: Se o programa MPALL_F1_0702_v363_00.exe não funcionar deve ser restaurado com os comandos abaixo, porém deve se saber a letra do drive.
 
 - SETANDO O PENDRIVE EM BOOTMODE (*luz acesa, não pisca*)
 
@@ -44,7 +45,7 @@ OBS: Se o programa MPALL_F1_0702_v363_00.exe não funcionar deve ser restaurado 
 
 ## SALVANDO O FIRMWARE ORIGINAL (opcional)
 
-	```C:\Psychson\tools\DriveCom.exe /drive=F /action=DumpFirmware /firmware=c:\currentfirmware.bin```
+	C:\Psychson\tools\DriveCom.exe /drive=F /action=DumpFirmware /firmware=c:\currentfirmware.bin
 
 
 em breve badusb para digispark :)
