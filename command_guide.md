@@ -10,18 +10,18 @@
 ============================================================================================================
 INSTALAR sdcc-3.4.0-x64-setup.exe
 
-EDITAR COMANDOS EM: C:\Psychson\DUCKY\comandos.txt
+EDITAR COMANDOS EM: C:\Psychson\duckGO\comandos.txt
 
 GERAR ARQUIVO inject.BIN >>>>
-	Versão GUI: C:\Psychson\DUCKY\duckyencodergui.jar
-	ou: cd C:\Psychson\DUCKY\ & java -jar duckencoder.jar -i comandos.txt -o inject.bin -l ptBR.properties
+	Versão GUI: C:\Psychson\duckGO\duckencodergui.jar
+	ou: cd C:\Psychson\duckGO\ & java -jar duckencoder.jar -i comandos.txt -o inject.bin -l ptBR.properties
 
 INJETAR ARQUIVO .bin NO FIRMWARE >>>>
 	
 	1 Passo - Gerar firmware.bin: Em C:\Psychson\firmware" Executar BUILD.bat (ja esta pronto > backupFirmwareOk.bin)
 	
 	2 Passo - Efetuar inject no firmware .bin:
-		C:\Psychson\tools\EmbedPayload.exe C:\Psychson\DUCKY\inject.bin C:\Psychson\firmware\firmware.bin
+		C:\Psychson\tools\EmbedPayload.exe C:\Psychson\duckGO\inject.bin C:\Psychson\firmware\firmware.bin
 		A partir de agora firmware.bin não é mais o original.
 
 =================================================================================================================
