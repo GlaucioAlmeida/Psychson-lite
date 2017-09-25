@@ -1,8 +1,7 @@
-Phison 2251-03 (2303) Custom Firmware
-========
+## Phison 2251-03 (2303) Custom Firmware
 
 Releases have the following items:
-- `DUCKY` -- these are the scripts and files for generate the inject.bin.
+- `duckGO` -- these are the scripts and files for generate the inject.bin.
 - `firmware` -- these are the codes of the firmware and compiled .bin file.
 - `fwburner` -- these are the .bin files of the pendrive burner image.
 - `restore` -- these are the binaries of all tools for restore the pendrive.
